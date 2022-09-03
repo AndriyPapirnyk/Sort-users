@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (4)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (4)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (4)/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io (4)/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>SORT</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="filterOpen"></div>
+        <div class="filter">
+            <div class="filterGroup">
+                <h2 class="filterTxt">Age</h2>
+                <button class="filterBtn" id="ageFilter">Younger <img class="ico" src="img/boy.png" alt=""></button>
+                <button class="filterBtn" id="ageReverceFilter">Older <img class="ico" src="img/tax-inspector.png" alt=""></button>
+            </div>
+            <div class="filterGroup">
+                <h2 class="filterTxt">By alphabet</h2>
+                <button class="filterBtn" id="alphabetFilter">A-Z <img class="ico" src="img/dictionary.png" alt=""></button>
+                <button class="filterBtn" id="alphabetReverceFilter">Z-A <img class="ico" src="img/dictionary.png" alt=""></button>
+            </div>
+            <div class="filterGroup">
+                <h2 class="filterTxt">Lenght</h2>
+                <button class="filterBtn" id="lenghtFilter">Higher <img class="ico" src="img/height.png" alt=""></button>
+                <button class="filterBtn" id="lenghtReverceFilter">Lower <img class="ico" src="img/small.png" alt=""></button>
+            </div>
+            <div class="filterGroup">
+                <h2 class="filterTxt">Weight</h2>
+                <button class="filterBtn" id="weightFilter">Rougher <img class="ico" src="img/obesity.png" alt=""></button>
+                <button class="filterBtn" id="weightReverceFilter">Thiner <img class="ico" src="img/body-variant.png" alt=""></button>
+            </div>
+            <div class="filterGroup">
+                <h2 class="filterTxt">Money</h2>
+                <button class="filterBtn" id="moneyFilter">Richer <img class="ico" src="img/money.png" alt=""></button>
+                <button class="filterBtn" id="moneyReverceFilter">Poorer <img class="ico" src="img/no-money.png" alt=""></button>
+            </div>
+            <div class="filterGroup">
+                <h2 class="filterTxt">Code</h2>
+                <button class="filterBtn" id="codeFilter">Growing <img class="ico" src="img/free-icon-id-card-1406558.png" alt=""></button>
+                <button class="filterBtn" id="codeReverceFilter">Decreases <img class="ico" src="img/free-icon-id-card-1406558.png" alt=""></button>
+            </div>
+        </div>
+        <div class="userContainer"></div>
+    </div>
+    <div class="popup">
+        <div class="row_p">
+        <p class="p_popup pp1"></p>
+        <p class="p_popup pp2"></p>
+        <p class="p_popup pp3"></p>
+        <p class="p_popup pp4"></p>
+        <p class="p_popup pp5"></p>
+        <p class="p_popup pp6"></p>
+        </div>
+        <img class="persImg" src="img/pers.png" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
